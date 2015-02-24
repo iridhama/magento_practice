@@ -1,0 +1,21 @@
+<config>
+    <modules>
+        <First_Test>
+            <version>0.1.0</version>
+        </First_Test>
+    </modules>
+    <frontend>
+        <routers>
+            <First_Test>
+                <use>standard</use>
+                <args>
+                    <module>First_Test</module>
+                    <frontName>test</frontName>
+                </args>
+            </First_Test>
+        </routers>
+    </frontend>
+    <global>
+
+    </global>
+</config>
